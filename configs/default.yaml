@@ -1,0 +1,4 @@
+random_seed: 42
+cv_folds: 5
+model: "logreg"   # options: logreg, rf, svm
+artifacts_dir: "artifacts"

@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iris-mini"            # or any unique name
+version = "0.1.0"
+description = "Iris classifier (src layout)"
+requires-python = ">=3.9"
+dependencies = [
+  "scikit-learn",
+  "pandas",
+  "pyyaml",
+  "joblib"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+iris-train = "iris_predict.__main__:main"

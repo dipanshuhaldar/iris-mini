@@ -1,0 +1,2 @@
+[console_scripts]
+iris-train = iris_predict.__main__:main

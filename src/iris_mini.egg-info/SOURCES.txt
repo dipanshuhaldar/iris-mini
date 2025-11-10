@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+src/iris_mini.egg-info/PKG-INFO
+src/iris_mini.egg-info/SOURCES.txt
+src/iris_mini.egg-info/dependency_links.txt
+src/iris_mini.egg-info/entry_points.txt
+src/iris_mini.egg-info/requires.txt
+src/iris_mini.egg-info/top_level.txt
+src/iris_predict/__init__.py
+src/iris_predict/__main__.py
+src/iris_predict/data.py
+src/iris_predict/features.py
+src/iris_predict/infer.py
+src/iris_predict/model.py
+src/iris_predict/train.py
+src/iris_predict/utils.py
